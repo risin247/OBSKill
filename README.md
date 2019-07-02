@@ -35,4 +35,5 @@ Run the Script with the -Uninstall Flag
 * Browsers like to keep their own DNS cache - so you may have to clear those out as well if you're testing (incognito tabs always seem to work though)
 * This only works on *LITERALS*, no partial matches, 'Likes', etc
 * Some site will redirect to a new entry so they can be missed (I've had sites I found out I had to explicitly add www. to even though I was attempting the site without it).
+* sites.txt needs to be in the same directory as obskiller.ps1 (obviously)
 * **TEST AND VALIDATE YOUR OWN CONFIG AND USE AT YOUR OWN RISK**
