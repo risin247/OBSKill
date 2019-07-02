@@ -1,14 +1,14 @@
-# OBSKill
-OBSKill sets up DNS monitoring on a machine and ties in an event trigger to immediatly shut down OBS if certain DNS requests are made.  This can be used to prevent disclosing personal information while forgetting your stream is running, or accidentaly 'Violating Streaming Policy' by visiting 'Certain Websites'.
+# OBSKiller
+OBSKiller sets up DNS monitoring on a machine and ties in an event trigger to immediatly shut down OBS if certain DNS requests are made.  This can be used to prevent disclosing personal information while forgetting your stream is running, or accidentaly 'Violating Streaming Policy' by visiting 'Certain Websites'.
 
-# What OBSKill Does
+# What OBSKiller Does
 * Enables the DNS Client Log in Event Monitor
 * Puts a small vbs script in the Public folder
 * Creates a scheduled task to trigger off of DNS Requests via DNS Client log
 
 The VBS script is soley to make the powershell script that fires completly silent as opposed to getting the P$ Console pop-up normally shown in scheduled tasks (source: http://www.leporelo.eu/blog.aspx?id=run-scheduled-tasks-with-winform-gui-in-powershell)
 
-# Installing OBSKill
+# Installing OBSKiller
 You will probably have to enable script execution to install:
 1. Hit the windows key and start searching for "powershell"
 2. Right-Click the Powershell icon and click 'Run as Aministrator'
